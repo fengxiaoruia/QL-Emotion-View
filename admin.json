@@ -1,0 +1,63 @@
+{
+	"code": 0,
+	"data": [
+		{
+			"path": "/examine",
+			"name": "examine",
+			"component": "examine",
+			"meta": {
+				"title": "message.router.examine",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": true,
+				"isIframe": false,
+				"roles": ["admin", "user"],   
+				"icon": "iconfont icon-shouye"
+			}
+		},
+		{
+			"path": "/addCK",
+			"name": "addCK",
+			"component": "addCK",
+			"meta": {
+				"title": "message.router.addCK",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": true,
+				"isIframe": false,
+				"roles": ["admin"],
+				"icon": "el-icon-upload"
+			}
+		},{
+			"path": "/queryJD",
+			"name": "queryJD",
+			"component": "queryJD",
+			"meta": {
+				"title": "message.router.queryJD",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": true,
+				"isIframe": false,
+				"roles": ["admin"],
+				"icon": "el-icon-search"
+			}
+		},{
+			"path": "/otherActivity",
+			"name": "otherActivity",
+			"component": "otherActivity",
+			"meta": {
+				"title": "message.router.otherActivity",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": true,
+				"isIframe": false,
+				"roles": ["admin"],
+				"icon": "el-icon-copy-document"
+			}
+		}
+	]
+}
