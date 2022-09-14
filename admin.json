@@ -12,7 +12,7 @@
 				"isKeepAlive": true,
 				"isAffix": true,
 				"isIframe": false,
-				"roles": ["admin", "user"],   
+				"roles": [],   
 				"icon": "iconfont icon-shouye"
 			}
 		},
@@ -27,36 +27,36 @@
 				"isKeepAlive": true,
 				"isAffix": true,
 				"isIframe": false,
-				"roles": ["admin"],
+				"roles": ["admin","user"],
 				"icon": "el-icon-upload"
 			}
 		},{
-			"path": "/queryJD",
-			"name": "queryJD",
-			"component": "queryJD",
+			"path": "/userMessage",
+			"name": "userMessage",
+			"component": "userMessage",
 			"meta": {
-				"title": "message.router.queryJD",
+				"title": "message.router.userMessage",
 				"isLink": "",
 				"isHide": false,
 				"isKeepAlive": true,
 				"isAffix": true,
 				"isIframe": false,
-				"roles": ["admin"],
-				"icon": "el-icon-search"
+				"roles": ["admin","user"],
+				"icon": "el-icon-document"
 			}
 		},{
-			"path": "/otherActivity",
-			"name": "otherActivity",
-			"component": "otherActivity",
+			"path": "/vessel",
+			"name": "vessel",
+			"component": "vessel",
 			"meta": {
-				"title": "message.router.otherActivity",
+				"title": "message.router.vessel",
 				"isLink": "",
 				"isHide": false,
 				"isKeepAlive": true,
 				"isAffix": true,
 				"isIframe": false,
-				"roles": ["admin"],
-				"icon": "el-icon-copy-document"
+				"roles": ["admin","user"],
+				"icon": "el-icon-folder"
 			}
 		}
 	]
