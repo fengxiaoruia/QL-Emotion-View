@@ -12,7 +12,7 @@
 				"isKeepAlive": true,
 				"isAffix": true,
 				"isIframe": false,
-				"roles": [],   
+				"roles": ["admin","user"],   
 				"icon": "iconfont icon-shouye"
 			}
 		},
@@ -27,7 +27,7 @@
 				"isKeepAlive": true,
 				"isAffix": true,
 				"isIframe": false,
-				"roles": ["admin","user"],
+				"roles": ["user"],
 				"icon": "el-icon-upload"
 			}
 		},{
@@ -41,7 +41,7 @@
 				"isKeepAlive": true,
 				"isAffix": true,
 				"isIframe": false,
-				"roles": ["admin","user"],
+				"roles": ["user"],
 				"icon": "el-icon-document"
 			}
 		},{
@@ -55,7 +55,35 @@
 				"isKeepAlive": true,
 				"isAffix": true,
 				"isIframe": false,
-				"roles": ["admin","user"],
+				"roles": ["admin"],
+				"icon": "el-icon-folder"
+			}
+		},{
+			"path": "/adminUser",
+			"name": "adminUser",
+			"component": "adminUser",
+			"meta": {
+				"title": "message.router.adminUser",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": true,
+				"isIframe": false,
+				"roles": ["admin"],
+				"icon": "el-icon-folder"
+			}
+		},{
+			"path": "/woolList",
+			"name": "woolList",
+			"component": "woolList",
+			"meta": {
+				"title": "message.router.woolList",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": true,
+				"isIframe": false,
+				"roles": ["admin"],
 				"icon": "el-icon-folder"
 			}
 		}
