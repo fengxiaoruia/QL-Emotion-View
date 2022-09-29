@@ -86,6 +86,20 @@
 				"roles": ["admin"],
 				"icon": "el-icon-folder"
 			}
+		},{
+			"path": "/userinfo",
+			"name": "userinfo",
+			"component": "userinfo",
+			"meta": {
+				"title": "message.router.userinfo",
+				"isLink": "",
+				"isHide": true,
+				"isKeepAlive": true,
+				"isAffix": true,
+				"isIframe": false,
+				"roles": ["admin"],
+				"icon": "el-icon-folder"
+			}
 		}
 	]
 }
